@@ -1,0 +1,8 @@
+package=concrete_ev_sdk_samepath_v1
+time=2026-07-01_171405
+source_project=/home/HwHiAiUser/evsdk_concrete_work/project/ev_sdk_demo4.0_evdeploy
+target_project=/home/HwHiAiUser/evsdk_concrete_work/project/ev_sdk_demo4.0_evdeploy
+libji=-rwxr-xr-x 1 root root 269K Jul  1 16:27 /home/HwHiAiUser/evsdk_concrete_work/project/ev_sdk_demo4.0_evdeploy/build/libji.so
+model=-rw------- 1 root root 41M Jun 30 13:59 /home/HwHiAiUser/evsdk_concrete_work/project/ev_sdk_demo4.0_evdeploy/model/concrete/best.om
+evdeploy_required=false
+runtime=AscendCL
