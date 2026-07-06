@@ -1,0 +1,16 @@
+﻿# Docker image archives
+*.tar
+*.tar.gz
+*.zip
+
+# Release artifacts
+image_release/
+release/
+restored_from_box/
+
+# Runtime logs and temporary outputs
+*.log
+vas_data/
+api_results/
+__pycache__/
+*.pyc
