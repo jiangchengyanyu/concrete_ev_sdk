@@ -14,3 +14,8 @@ vas_data/
 api_results/
 __pycache__/
 *.pyc
+
+# Large Docker image release assets
+concrete_ev_sdk_atlas200_a2_1.0.1.tar
+*.tar
+*.tar.gz

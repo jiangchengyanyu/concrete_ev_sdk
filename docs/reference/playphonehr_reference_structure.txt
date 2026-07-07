@@ -1,0 +1,208 @@
+===== tree =====
+/usr/local/ev_sdk/.clang-format
+/usr/local/ev_sdk/.git/COMMIT_EDITMSG
+/usr/local/ev_sdk/.git/FETCH_HEAD
+/usr/local/ev_sdk/.git/HEAD
+/usr/local/ev_sdk/.git/config
+/usr/local/ev_sdk/.git/description
+/usr/local/ev_sdk/.git/hooks/applypatch-msg.sample
+/usr/local/ev_sdk/.git/hooks/commit-msg.sample
+/usr/local/ev_sdk/.git/hooks/fsmonitor-watchman.sample
+/usr/local/ev_sdk/.git/hooks/post-update.sample
+/usr/local/ev_sdk/.git/hooks/pre-applypatch.sample
+/usr/local/ev_sdk/.git/hooks/pre-commit.sample
+/usr/local/ev_sdk/.git/hooks/pre-merge-commit.sample
+/usr/local/ev_sdk/.git/hooks/pre-push.sample
+/usr/local/ev_sdk/.git/hooks/pre-rebase.sample
+/usr/local/ev_sdk/.git/hooks/pre-receive.sample
+/usr/local/ev_sdk/.git/hooks/prepare-commit-msg.sample
+/usr/local/ev_sdk/.git/hooks/update.sample
+/usr/local/ev_sdk/.git/index
+/usr/local/ev_sdk/.git/info/exclude
+/usr/local/ev_sdk/.git/logs/HEAD
+/usr/local/ev_sdk/.git/packed-refs
+/usr/local/ev_sdk/.git/shallow
+/usr/local/ev_sdk/.gitignore
+/usr/local/ev_sdk/3rd/cJSON/CMakeLists.txt
+/usr/local/ev_sdk/3rd/darknet/CMakeLists.txt
+/usr/local/ev_sdk/3rd/darknet/README.md
+/usr/local/ev_sdk/3rd/ev_encrypt_module/README.md
+/usr/local/ev_sdk/3rd/fonts/NotoSansCJKsc-Regular.otf
+/usr/local/ev_sdk/3rd/jsoncpp_simple/CMakeLists.txt
+/usr/local/ev_sdk/3rd/wkt_parser/CMakeLists.txt
+/usr/local/ev_sdk/3rd/wkt_parser/README.md
+/usr/local/ev_sdk/3rd/wkt_parser/WKT_format.pdf
+/usr/local/ev_sdk/3rd/wkt_parser/wkt_parser_readme.md
+/usr/local/ev_sdk/CMakeLists.txt
+/usr/local/ev_sdk/LICENSE
+/usr/local/ev_sdk/README.md
+/usr/local/ev_sdk/bin/Readme.md
+/usr/local/ev_sdk/bin/test-ji-api
+/usr/local/ev_sdk/bin/testWktParser
+/usr/local/ev_sdk/bin/测试示例.log
+/usr/local/ev_sdk/build/CMakeCache.txt
+/usr/local/ev_sdk/build/CMakeFiles/CMakeConfigureLog.yaml
+/usr/local/ev_sdk/build/CMakeFiles/CMakeDirectoryInformation.cmake
+/usr/local/ev_sdk/build/CMakeFiles/Makefile.cmake
+/usr/local/ev_sdk/build/CMakeFiles/Makefile2
+/usr/local/ev_sdk/build/CMakeFiles/TargetDirectories.txt
+/usr/local/ev_sdk/build/CMakeFiles/cmake.check_cache
+/usr/local/ev_sdk/build/CMakeFiles/progress.marks
+/usr/local/ev_sdk/build/Makefile
+/usr/local/ev_sdk/build/cmake_install.cmake
+/usr/local/ev_sdk/build/install_manifest.txt
+/usr/local/ev_sdk/build/libji.so
+/usr/local/ev_sdk/build/test-ji-api
+/usr/local/ev_sdk/build/test/Makefile
+/usr/local/ev_sdk/build/test/cmake_install.cmake
+/usr/local/ev_sdk/build/testWktParser
+/usr/local/ev_sdk/cmake/evdeploy.cmake
+/usr/local/ev_sdk/cmake/opencv.cmake
+/usr/local/ev_sdk/config/README.md
+/usr/local/ev_sdk/config/algo_config.json
+/usr/local/ev_sdk/config/evdeploy_config.json
+/usr/local/ev_sdk/config/evdeploy_config_demo_atlas.json
+/usr/local/ev_sdk/config/evdeploy_config_demo_sophon.json
+/usr/local/ev_sdk/config/evdeploy_config_demo_trt.json
+/usr/local/ev_sdk/data/persons.jpg
+/usr/local/ev_sdk/data/street.jpg
+/usr/local/ev_sdk/doc/EV_SDK接口协议.md
+/usr/local/ev_sdk/doc/EV_SDK输出协议.md
+/usr/local/ev_sdk/doc/EV_SDK配置协议.md
+/usr/local/ev_sdk/doc/assets/sdk-config-process.png
+/usr/local/ev_sdk/doc/assets/人脸调用流程.png
+/usr/local/ev_sdk/doc/assets/通用算法调用流程.png
+/usr/local/ev_sdk/doc/figure1.jpg
+/usr/local/ev_sdk/doc/figure2.jpg
+/usr/local/ev_sdk/doc/人脸识别接口.md
+/usr/local/ev_sdk/include/ji.h
+/usr/local/ev_sdk/include/ji_error.h
+/usr/local/ev_sdk/include/ji_types.h
+/usr/local/ev_sdk/include/ji_utils.h
+/usr/local/ev_sdk/lib/Readme.md
+/usr/local/ev_sdk/lib/fonts/NotoSansCJKsc-Regular.otf
+/usr/local/ev_sdk/lib/fonts/NotoSansMonoCJKsc-VF.otf
+/usr/local/ev_sdk/lib/libji.so
+/usr/local/ev_sdk/model/.gitkeep
+/usr/local/ev_sdk/model/Readme.md
+/usr/local/ev_sdk/src/Readme.md
+/usr/local/ev_sdk/test/Algo.cpp
+/usr/local/ev_sdk/test/Algo.h
+/usr/local/ev_sdk/test/CMakeLists.txt
+/usr/local/ev_sdk/test/Readme.md
+/usr/local/ev_sdk/test/build/CMakeCache.txt
+/usr/local/ev_sdk/test/test.cpp
+===== exported symbols =====
+===== config =====
+{
+    "cid": "test001",
+    "draw_roi_area": true,
+    "roi_type": "polygon_1",
+    "polygon_1": [
+        "POLYGON((0 0, 1 0, 1 1, 0 1))"
+    ],
+    "polygon_1_name": [
+        "ROI"
+    ],
+    "roi_color": [
+        255,
+        255,
+        0,
+        0.7
+    ],
+    "roi_line_thickness": 4,
+    "roi_fill": false,
+    "draw_result": true,
+    "draw_non_target_rect": true,
+    "draw_confidence": true,
+    "thresh": 0.5,
+    "uuid": "200003",
+    "uuid2": "200004",
+    "language": "en",
+    "target_rect_color": [
+        0,
+        0,
+        255,
+        0
+    ],
+    "non_target_rect_color": [
+        0,
+        255,
+        0,
+        0
+    ],
+    "object_rect_line_thickness": 3,
+    "object_text_color": [
+        255,
+        255,
+        255,
+        0
+    ],
+    "object_text_bg_color": [
+        50,
+        50,
+        50,
+        0
+    ],
+    "object_text_size": 30,
+    "mark_text_en": {
+        "0": "front_head",
+        "1": "side_head",
+        "2": "back_head",
+        "3":"hand",
+        "4":"mobile_phone",
+        "5":"person_on_phone"
+    },
+    "mark_text_zh": {
+        "0": "正面人头",
+        "1": "侧面人头",
+        "2": "背面人头",
+        "3": "人手",
+        "4": "手机",
+        "5": "打手机的人"
+    },
+    "draw_warning_text": true,
+    "warning_text_en": "WARNING! WARNING!",
+    "warning_text_zh": "警告!",
+    "warning_text_size": 30,
+    "warning_text_color": [
+        255,
+        255,
+        255,
+        0
+    ],
+    "warning_text_bg_color": [
+        0,
+        0,
+        200,
+        0
+    ],
+    "warning_text_left_top": [
+        0,
+        0
+    ],
+
+    // 截至此处，上述所有参数均为常规必备参数
+
+    "alert_recoder_enable": false,
+    "alert_frame_ratio": 0.3,
+    "alert_time_thresh": 2,
+    "max_alert_wait_time": 5,
+
+    // 以下为算法定制必要暴露的参数
+
+    "labels_name":["front_head","side_head","back_head","hand","mobile_phone","person_on_phone","walkie_talkie"],
+    "thresh_list":[0.5,0.5,0.5,0.5, 0.7, 0.7,0.5],
+    "additional_warning_logic":["phone", "head_phone_intersection", "hand_phone_intersection", "hand_head_intersection", "head_inside_person_on_phone", "phone_inside_person_on_phone"],
+    "warning_head_types":["front_head", "side_head","back_head"],
+    "min_head_pixels":10,
+    "distance_ratio_thresh":2,
+    "draw_other_object":true,
+    "other_object_rect_color": [0,255,0,0],
+    "multi_frame_length":20,
+    "frame_ratio_thresh":0.5,
+    "consider_displacement":true,
+    "display_status":true,
+    "show_tracking_id":true,
+    "report_walkie_talkie":false
+}

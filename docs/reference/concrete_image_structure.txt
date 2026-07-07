@@ -1,0 +1,81 @@
+===== concrete tree =====
+/usr/local/ev_sdk/config/algo_config.json
+/usr/local/ev_sdk/include/ji.h
+/usr/local/ev_sdk/include/ji_error.h
+/usr/local/ev_sdk/include/ji_types.h
+/usr/local/ev_sdk/include/ji_utils.h
+/usr/local/ev_sdk/lib/libgflags.so.2.2
+/usr/local/ev_sdk/lib/libglog.so.0
+/usr/local/ev_sdk/lib/libji.so
+/usr/local/ev_sdk/lib/libopencv_core.so.4.5d
+/usr/local/ev_sdk/lib/libopencv_imgproc.so.4.5d
+/usr/local/ev_sdk/lib/libtbb.so.2
+/usr/local/ev_sdk/model/algo_config.json
+/usr/local/ev_sdk/model/concrete/best.om
+/usr/local/ev_sdk/model/concrete/labels.txt
+/usr/local/ev_sdk/test/test_ji_calc_image.py
+/usr/local/ev_sdk/test/test_ji_video.py
+===== concrete config =====
+{
+  "algorithm_name": "concrete_quality_detection",
+  "algorithm_id": "concrete_ev_sdk",
+  "model_path": "/usr/local/ev_sdk/model/concrete/best.om",
+  "labels_path": "/usr/local/ev_sdk/model/concrete/labels.txt",
+  "classes": [
+    "excellent",
+    "good"
+  ],
+  "input_format": "NV12",
+  "output_format": "BGR",
+  "draw_roi_area": 1,
+  "draw_result": 1,
+  "show_result": 0,
+  "gpu_id": 0,
+  "threshold_value": 0.25,
+  "score_threshold": 0.25,
+  "conf_thresh": 0.25,
+  "thresh": 0.25,
+  "nms_threshold": 0.45,
+  "language": "en"
+}
+===== concrete ldd =====
+	linux-vdso.so.1 (0x0000e7ffd785c000)
+	/lib/aarch64-linux-gnu/libc.so.6 (0x0000e7ffd7630000)
+	libglog.so.0 => /usr/local/ev_sdk/lib/libglog.so.0 (0x0000e7ffd75e0000)
+	libascendcl.so => /usr/local/Ascend/nnrt/latest/lib64/libascendcl.so (0x0000e7ffd73f0000)
+	libopencv_imgproc.so.4.5d => /usr/local/ev_sdk/lib/libopencv_imgproc.so.4.5d (0x0000e7ffd7080000)
+	libopencv_core.so.4.5d => /usr/local/ev_sdk/lib/libopencv_core.so.4.5d (0x0000e7ffd6df0000)
+	libstdc++.so.6 => /lib/aarch64-linux-gnu/libstdc++.so.6 (0x0000e7ffd6bc0000)
+	libgcc_s.so.1 => /lib/aarch64-linux-gnu/libgcc_s.so.1 (0x0000e7ffd6b90000)
+	/lib/ld-linux-aarch64.so.1 (0x0000e7ffd7823000)
+	libgflags.so.2.2 => /usr/local/ev_sdk/lib/libgflags.so.2.2 (0x0000e7ffd6b50000)
+	libascend_dump.so => /usr/local/Ascend/nnrt/latest/lib64/libascend_dump.so (0x0000e7ffd6a20000)
+	libmsprofiler.so => /usr/local/Ascend/nnrt/latest/lib64/libmsprofiler.so (0x0000e7ffd6620000)
+	libgert.so => /usr/local/Ascend/nnrt/latest/lib64/libgert.so (0x0000e7ffd5dc0000)
+	librt.so.1 => /lib/aarch64-linux-gnu/librt.so.1 (0x0000e7ffd5da0000)
+	libdl.so.2 => /lib/aarch64-linux-gnu/libdl.so.2 (0x0000e7ffd5d80000)
+	libge_executor.so => /usr/local/Ascend/nnrt/latest/lib64/libge_executor.so (0x0000e7ffd5c50000)
+	libexe_graph.so => /usr/local/Ascend/nnrt/latest/lib64/libexe_graph.so (0x0000e7ffd5b70000)
+	libgraph.so => /usr/local/Ascend/nnrt/latest/lib64/libgraph.so (0x0000e7ffd5830000)
+	libruntime.so => /usr/local/Ascend/nnrt/latest/lib64/libruntime.so (0x0000e7ffd5350000)
+	libprofapi.so => /usr/local/Ascend/nnrt/latest/lib64/libprofapi.so (0x0000e7ffd5310000)
+	libascend_protobuf.so.3.13.0.0 => /usr/local/Ascend/nnrt/latest/lib64/libascend_protobuf.so.3.13.0.0 (0x0000e7ffd4fd0000)
+	liberror_manager.so => /usr/local/Ascend/nnrt/latest/lib64/liberror_manager.so (0x0000e7ffd4ef0000)
+	libascendalog.so => /usr/local/Ascend/nnrt/latest/lib64/libascendalog.so (0x0000e7ffd4ec0000)
+	libc_sec.so => /usr/local/Ascend/nnrt/latest/lib64/libc_sec.so (0x0000e7ffd4e90000)
+	libpthread.so.0 => /lib/aarch64-linux-gnu/libpthread.so.0 (0x0000e7ffd4e70000)
+	libm.so.6 => /lib/aarch64-linux-gnu/libm.so.6 (0x0000e7ffd4dd0000)
+	libz.so.1 => /lib/aarch64-linux-gnu/libz.so.1 (0x0000e7ffd4da0000)
+	libtbb.so.2 => /usr/local/ev_sdk/lib/libtbb.so.2 (0x0000e7ffd4d60000)
+	libascend_hal.so => not found
+	libmmpa.so => /usr/local/Ascend/nnrt/latest/lib64/libmmpa.so (0x0000e7ffd4d40000)
+	libhybrid_executor.so => /usr/local/Ascend/nnrt/latest/lib64/libhybrid_executor.so (0x0000e7ffd4850000)
+	libtprt.so => /usr/local/Ascend/nnrt/latest/lib64/libtprt.so (0x0000e7ffd47f0000)
+	libdavinci_executor.so => /usr/local/Ascend/nnrt/latest/lib64/libdavinci_executor.so (0x0000e7ffd4300000)
+	libge_common.so => /usr/local/Ascend/nnrt/latest/lib64/libge_common.so (0x0000e7ffd4180000)
+	libge_common_base.so => /usr/local/Ascend/nnrt/latest/lib64/libge_common_base.so (0x0000e7ffd3be0000)
+	libregister.so => /usr/local/Ascend/nnrt/latest/lib64/libregister.so (0x0000e7ffd31a0000)
+	libqos_manager.so => /usr/local/Ascend/nnrt/latest/lib64/libqos_manager.so (0x0000e7ffd3180000)
+	libplatform.so => /usr/local/Ascend/nnrt/latest/lib64/libplatform.so (0x0000e7ffd30a0000)
+	libgraph_base.so => /usr/local/Ascend/nnrt/latest/lib64/libgraph_base.so (0x0000e7ffd2930000)
+	libascend_hal.so => not found
